@@ -6,7 +6,7 @@ try:
             print(role, end='')
             print(' said: ', end='')
             print(line_spoken, end='')
-        except:
+        except ValueError:
             pass
     
     data.close()
